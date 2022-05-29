@@ -113,13 +113,13 @@ namespace Aula01
             //Exercicio G
             {
 
-                Console.WriteLine("Diga o valor do artigo");
+                Console.WriteLine("Digete o valor do artigo");
                 double valorArtigo = Convert.ToDouble(Console.ReadLine());
 
                 Console.WriteLine("--FORMA DE PAGAMENTO--");
-                Console.WriteLine("Diga a forma de pagamento:");
-                Console.WriteLine("1-Avista");
-                Console.WriteLine("2-Cretido");
+                Console.WriteLine("Digete a forma de pagamento:");
+                Console.WriteLine("1 - AVISTA");
+                Console.WriteLine("2 - CREDITO");
                 int formaPagamento = Convert.ToInt32(Console.ReadLine());
 
                 if (formaPagamento == 1)
@@ -147,7 +147,6 @@ namespace Aula01
                         Console.WriteLine("O valor do artigo é de R$" + valorArtigo + ", dividido em " + vezes + " vezes, o valor da parcela será de R$" + parcela);
                         Console.ReadLine();
                     }
-
 
 
                 }
