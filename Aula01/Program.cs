@@ -10,10 +10,12 @@ namespace Aula01
     {
         static void Main(string[] args)
         {
+            //AULA 01
             //.tostring(); serve para transformar um int em string.
             // Se você somar junto com o tostring acontece uma contatenação
             //.Convert serve para converter para akgum tipo (Ex:Convert.Int32(input1);) -> Melhor modo de usar para converção
             //Outro exemplo de converção numero1 = Convert.ToInt32(Readline());
+            //@"{0:c}", ou @"{0:#,##}",
 
             {/* 
             int numero1 = Convert.ToInt32(Console.ReadLine());
@@ -111,7 +113,7 @@ namespace Aula01
             }
             //------------------//----------------
             //Exercicio G
-            {
+            {/*
 
                 Console.WriteLine("Digete o valor do artigo");
                 double valorArtigo = Convert.ToDouble(Console.ReadLine());
@@ -148,11 +150,11 @@ namespace Aula01
                         Console.ReadLine();
                     }
 
-
+                */
                 }
-                //------------------//----------------
-                //Exercicio H
-                {/*
+            //------------------//----------------
+            //Exercicio H
+            {/*
                 Console.WriteLine("Digite o valore de A");
                 string a = Console.ReadLine();
                 Console.WriteLine(a);
@@ -169,14 +171,12 @@ namespace Aula01
                 Console.WriteLine("Valor de A: "+a);
                 Console.WriteLine("Valor de B: "+b);
                 Console.ReadLine();
-                */
-                }
+             */   
+             }
+            
 
-
-
-
-
-            }
+            
+        
         }
     }
 }
