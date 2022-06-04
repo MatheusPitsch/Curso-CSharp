@@ -112,44 +112,47 @@ namespace Aula01
             //------------------//----------------
             //Exercicio G
             {
-                /*
-                Console.WriteLine("Diga o valor do artigo");
+
+                Console.WriteLine("Digete o valor do artigo");
                 double valorArtigo = Convert.ToDouble(Console.ReadLine());
 
                 Console.WriteLine("--FORMA DE PAGAMENTO--");
-                Console.WriteLine("Diga a forma de pagamento:");
-                Console.WriteLine("1-Avista");
-                Console.WriteLine("2-Cretido");
+                Console.WriteLine("Digete a forma de pagamento:");
+                Console.WriteLine("1 - AVISTA");
+                Console.WriteLine("2 - CREDITO");
                 int formaPagamento = Convert.ToInt32(Console.ReadLine());
 
                 if (formaPagamento == 1)
                 {
                     double porcentagem = 8.0 / 100;
                     double desconto = valorArtigo - (valorArtigo * porcentagem);
-                    Console.WriteLine("O valor do artigo com 8% de desconto é " + desconto);
+                    Console.WriteLine("O valor do artigo com 8% de desconto é R$" + desconto);
                     Console.ReadLine();
-                }else if (formaPagamento == 2) {
+                }
+                else if (formaPagamento == 2)
+                {
                     Console.WriteLine("Digite em quantas vezes");
                     int vezes = Convert.ToInt32(Console.ReadLine());
                     if (vezes >= 3)
                     {
                         double porcentagem = 15.0 / 100;
                         double acrescimo = valorArtigo + (valorArtigo * porcentagem);
-                        Console.WriteLine("O valor final do artigo é de: "+acrescimo);
+                        double parcela = acrescimo / vezes;
+                        Console.WriteLine("O valor do artigo é de R$" + acrescimo + ", dividido em " + vezes + " vezes o valor da parcela será de R$" + parcela);
                         Console.ReadLine();
                     }
                     else
                     {
-                        Console.WriteLine("O valor do artigo é de: " + valorArtigo);
+                        double parcela = valorArtigo / vezes;
+                        Console.WriteLine("O valor do artigo é de R$" + valorArtigo + ", dividido em " + vezes + " vezes, o valor da parcela será de R$" + parcela);
                         Console.ReadLine();
                     }
 
-                */
 
-            }
-            //------------------//----------------
-            //Exercicio H
-            {/*
+                }
+                //------------------//----------------
+                //Exercicio H
+                {/*
                 Console.WriteLine("Digite o valore de A");
                 string a = Console.ReadLine();
                 Console.WriteLine(a);
@@ -167,12 +170,13 @@ namespace Aula01
                 Console.WriteLine("Valor de B: "+b);
                 Console.ReadLine();
                 */
+                }
+
+
+
+
+
             }
-
-
-
-
-
         }
     }
 }
