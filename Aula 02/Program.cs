@@ -337,36 +337,109 @@ namespace Aula_02
                     }
                 //------------//------------
                 //6
-                while (true)
+                { 
+                    /*
+                    while (true)
+                    {
+                        string nomeCpf, endereco;
+                        int opcao;
+
+                        Console.WriteLine("Digite o NOME e o CPF do(a) aluno(a)");
+                        nomeCpf = Console.ReadLine();
+                        Console.WriteLine("Digite o endereço do(a) aluno(a)");
+                        endereco = Console.ReadLine();
+                        Console.Clear();
+                        Console.WriteLine("escolha uma opção");
+                        Console.WriteLine("\n1 - Mostrar ultimo aluno\n2 - cadastra outro aluno\n3 - sair");
+                        opcao = Convert.ToInt32(Console.ReadLine());
+
+                        if (opcao == 1)
+                        {
+                            Console.Clear();
+                            Console.WriteLine(nomeCpf);
+                            Console.WriteLine(endereco);
+                            Console.WriteLine("\nEsolha um opção\n");
+                            Console.WriteLine("1 - Cadastrar novo aluno \n2 - sair");
+                            opcao = Convert.ToInt32(Console.ReadLine());
+                            if (opcao == 1)
+                            {
+                                Console.Clear();
+                                continue;
+                            }
+                            else if (opcao == 2)
+                            {
+                                break;
+                            }
+                            else
+                            {
+                                Console.WriteLine("Opção não existe");
+                            }
+
+                        }else if (opcao == 2)
+                        {
+                            continue;
+                        }else if (opcao == 3)
+                        {
+                            break;
+                        }
+                    }
+                */}
+                //------------//------------
+                //7
+                {/* Verificar pois esta dando erro  
+                    int dinheiro = 0;
+                    for (int i = 0; i < 30; i++)
+                    {
+                        Random dado = new Random();
+                        int resultado;
+                        resultado = dado.Next(1, 6 * 1);
+
+                        if (resultado >= 3)
+                        {
+                            dinheiro += 10;
+                        }
+                        else
+                        {
+                            dinheiro -= 15;
+                        }
+                    }
+                    
+                    if (dinheiro > 0)
+                    {
+                        Console.WriteLine("Você ganhou R$" + dinheiro);
+                    }
+                    else if (dinheiro < 0)
+                    {
+                        Console.WriteLine("Você esta devendo R$" + dinheiro);
+                    }
+                    else
+                    {
+                        Console.WriteLine("Você não ganhou nada.");
+                    }*/
+                }
+                //------------//------------
+                //8
                 {
-                    string nomeCpf, endereco;
                     int opcao;
 
-                    Console.WriteLine("Digite o NOME e o CPF do(a) aluno(a)");
-                    nomeCpf = Console.ReadLine();
-                    Console.WriteLine("Digite o endereço do(a) aluno(a)");
-                    endereco = Console.ReadLine();
-
-                    Console.WriteLine("escolha uma opção");
-                    Console.WriteLine("\n1 - Mostrar ultimo aluno\n2 - cadastra outro aluno\n3 - sair");
-                    opcao = Convert.ToInt32(Console.ReadLine());
-
-                    if (opcao == 1)
+                    while (true)
                     {
-                        Console.WriteLine(nomeCpf);
-                        Console.WriteLine(endereco);
+                        Console.WriteLine("Escolha qual item deseja isirir no carrinho.");
+                        Console.WriteLine("\n------CAIXA------\n");
+                        Console.WriteLine("\n1 - Queijo");
+                        Console.WriteLine("\n2 - Macarrão");
+                        Console.WriteLine("\n3 - Feijão");
+                        Console.WriteLine("\n4 - Presunto");
+                        Console.WriteLine("\n5 - Pão\n");
 
-                    }else if (opcao == 2)
-                    {
-                        continue;
-                    }else if (opcao == 3)
-                    {
-                        break;
+                        opcao = Convert.ToInt32(Console.ReadLine());
+
+                        if (opcao)
+                        {
+
+                        }
                     }
                 }
-                
-
-
             }
             Console.ReadLine();
             }
