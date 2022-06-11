@@ -16,6 +16,13 @@ namespace Aula_02
                 Random dado = new Ramdon();
                 int resultado;
                 resultado = dado.Next(1,6*1);
+                
+                Para receber uma variavel você deve:
+                1-Preparar uma variavel
+                2-Mostrar oque queremos
+                3-Pedir o dado com input
+                4-armazenar o valor na variavel
+
                  */
 
                 /*ATIVIDADES
@@ -53,7 +60,7 @@ namespace Aula_02
                     {
                         Console.WriteLine("Os valores são diferentes");
                     }
-                     */       
+                     */
                 }
                 //------------//------------
                 //3
@@ -230,7 +237,7 @@ namespace Aula_02
                 //------------//------------
                 //2
                 {/*
-                    for (int i = 0; i < 23; i++)
+                    for (int i = 0; i < 24; i++)
                     {
                         if (i % 2 == 0)
                         {
@@ -304,144 +311,127 @@ namespace Aula_02
                 }
                 //------------//------------
                 //5
-                {/*
+                {
+                    //    int valor;
+                    //    string sair = "";
+                    //    while (true)
+                    //    {
+                    //        Console.WriteLine("Digite um valor");
+                    //        sair = Console.ReadLine();
+                    //        Console.Clear();
 
-                    while (true)
+                    //        if (sair == "exit")
+                    //        {
+                    //            break;
+                    //        }
+
+                    //        valor = Convert.ToInt32(sair);
+
+                    //        if (valor > 24)
+                    //        {
+                    //            valor = valor * 2;
+                    //            Console.WriteLine(valor);
+                    //        }
+                    //        else if (valor > 0)
+                    //        {
+                    //            Console.WriteLine(valor);
+                    //        }
+                    //        else if (valor < 0 || valor == 0)
+                    //        {
+                    //            Console.WriteLine("Digite o valor novamente");
+                    //            continue;
+                    //        }                       
+                }
+                    //------------//------------
+                    //6
                     {
-                        int valor;
-                        string sair = "";
-                        Console.WriteLine("Digite um valor");
-                        valor = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine("Se desejar sair digite exit");
-                        Console.Clear();
+                        /*
+                        while (true)
+                        {
+                            string nomeCpf, endereco;
+                            int opcao;
 
-                        if (valor > 24)
-                        {
-                            valor = valor * 2;
-                            Console.WriteLine(valor);
-                        }
-                        else if (valor > 0)
-                        {
-                            Console.WriteLine(valor);
-                        }
-                        else if (valor < 0 || valor == 0)
-                        {
-                            Console.WriteLine("Digite o valor novamente");
-                            continue;
-                        }
-                        else if (sair == "exit")
-                        {
-                            break;
-                        }
-                        */
-                    }
-                //------------//------------
-                //6
-                { 
-                    /*
-                    while (true)
-                    {
-                        string nomeCpf, endereco;
-                        int opcao;
-
-                        Console.WriteLine("Digite o NOME e o CPF do(a) aluno(a)");
-                        nomeCpf = Console.ReadLine();
-                        Console.WriteLine("Digite o endereço do(a) aluno(a)");
-                        endereco = Console.ReadLine();
-                        Console.Clear();
-                        Console.WriteLine("escolha uma opção");
-                        Console.WriteLine("\n1 - Mostrar ultimo aluno\n2 - cadastra outro aluno\n3 - sair");
-                        opcao = Convert.ToInt32(Console.ReadLine());
-
-                        if (opcao == 1)
-                        {
+                            Console.WriteLine("Digite o NOME e o CPF do(a) aluno(a)");
+                            nomeCpf = Console.ReadLine();
+                            Console.WriteLine("Digite o endereço do(a) aluno(a)");
+                            endereco = Console.ReadLine();
                             Console.Clear();
-                            Console.WriteLine(nomeCpf);
-                            Console.WriteLine(endereco);
-                            Console.WriteLine("\nEsolha um opção\n");
-                            Console.WriteLine("1 - Cadastrar novo aluno \n2 - sair");
+                            Console.WriteLine("escolha uma opção");
+                            Console.WriteLine("\n1 - Mostrar ultimo aluno\n2 - cadastra outro aluno\n3 - sair");
                             opcao = Convert.ToInt32(Console.ReadLine());
+
                             if (opcao == 1)
                             {
                                 Console.Clear();
+                                Console.WriteLine(nomeCpf);
+                                Console.WriteLine(endereco);
+                                Console.WriteLine("\nEsolha um opção\n");
+                                Console.WriteLine("1 - Cadastrar novo aluno \n2 - sair");
+                                opcao = Convert.ToInt32(Console.ReadLine());
+                                if (opcao == 1)
+                                {
+                                    Console.Clear();
+                                    continue;
+                                }
+                                else if (opcao == 2)
+                                {
+                                    break;
+                                }
+                                else
+                                {
+                                    Console.WriteLine("Opção não existe");
+                                }
+
+                            }else if (opcao == 2)
+                            {
                                 continue;
-                            }
-                            else if (opcao == 2)
+                            }else if (opcao == 3)
                             {
                                 break;
                             }
-                            else
-                            {
-                                Console.WriteLine("Opção não existe");
-                            }
-
-                        }else if (opcao == 2)
-                        {
-                            continue;
-                        }else if (opcao == 3)
-                        {
-                            break;
                         }
+                    */
                     }
-                */}
-                //------------//------------
-                //7
-                {/* Verificar pois esta dando erro  
-                    int dinheiro = 0;
-                    for (int i = 0; i < 30; i++)
+                    //------------//------------
+                    //7
                     {
-                        Random dado = new Random();
-                        int resultado;
-                        resultado = dado.Next(1, 6 * 1);
+                        //int dinheiro = 0;
+                        //for (int i = 0; i < 30; i++)
+                        //{
+                        //    Random dado = new Random();
+                        //    int resultado;
+                        //    resultado = dado.Next(1, 6 * 1);
 
-                        if (resultado >= 3)
-                        {
-                            dinheiro += 10;
-                        }
-                        else
-                        {
-                            dinheiro -= 15;
-                        }
+                        //    if (resultado >= 3)
+                        //    {
+                        //        dinheiro += 10;
+                        //    }
+                        //    else
+                        //    {
+                        //        dinheiro -= 15;
+                        //    }
+                        //}
+
+                        //if (dinheiro > 0)
+                        //{
+                        //    Console.WriteLine("você ganhou R$" + dinheiro);
+                        //}
+                        //else if (dinheiro < 0)
+                        //{
+                        //    Console.WriteLine("você esta devendo R$" + dinheiro);
+                        //}
+                        //else
+                        //{
+                        //    Console.WriteLine("você não ganhou nada.");
+                        //}
                     }
-                    
-                    if (dinheiro > 0)
+                    //------------//------------
+                    //8
                     {
-                        Console.WriteLine("Você ganhou R$" + dinheiro);
-                    }
-                    else if (dinheiro < 0)
-                    {
-                        Console.WriteLine("Você esta devendo R$" + dinheiro);
-                    }
-                    else
-                    {
-                        Console.WriteLine("Você não ganhou nada.");
-                    }*/
-                }
-                //------------//------------
-                //8
-                {
-                    int opcao;
-
-                    while (true)
-                    {
-                        Console.WriteLine("Escolha qual item deseja isirir no carrinho.");
-                        Console.WriteLine("\n------CAIXA------\n");
-                        Console.WriteLine("\n1 - Queijo");
-                        Console.WriteLine("\n2 - Macarrão");
-                        Console.WriteLine("\n3 - Feijão");
-                        Console.WriteLine("\n4 - Presunto");
-                        Console.WriteLine("\n5 - Pão\n");
-
-                        opcao = Convert.ToInt32(Console.ReadLine());
-
-                        if (opcao)
-                        {
-
-                        }
                     }
                 }
-            }
-            Console.ReadLine();
+                Console.ReadLine();
             }
         }
     }
+}
