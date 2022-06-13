@@ -6,3 +6,11 @@ C:\Users\71719\Documents\GitHub\Curso-CSharp\aulaa03\obj\Debug\aulaa03.csproj.Su
 C:\Users\71719\Documents\GitHub\Curso-CSharp\aulaa03\obj\Debug\aulaa03.csproj.CoreCompileInputs.cache
 C:\Users\71719\Documents\GitHub\Curso-CSharp\aulaa03\obj\Debug\aulaa03.exe
 C:\Users\71719\Documents\GitHub\Curso-CSharp\aulaa03\obj\Debug\aulaa03.pdb
+C:\Users\A\Documents\GitHub\Site\Curso-CSharp\aula03\bin\Debug\aulaa03.exe.config
+C:\Users\A\Documents\GitHub\Site\Curso-CSharp\aula03\bin\Debug\aulaa03.exe
+C:\Users\A\Documents\GitHub\Site\Curso-CSharp\aula03\bin\Debug\aulaa03.pdb
+C:\Users\A\Documents\GitHub\Site\Curso-CSharp\aula03\obj\Debug\aulaa03.csproj.AssemblyReference.cache
+C:\Users\A\Documents\GitHub\Site\Curso-CSharp\aula03\obj\Debug\aulaa03.csproj.SuggestedBindingRedirects.cache
+C:\Users\A\Documents\GitHub\Site\Curso-CSharp\aula03\obj\Debug\aulaa03.csproj.CoreCompileInputs.cache
+C:\Users\A\Documents\GitHub\Site\Curso-CSharp\aula03\obj\Debug\aulaa03.exe
+C:\Users\A\Documents\GitHub\Site\Curso-CSharp\aula03\obj\Debug\aulaa03.pdb

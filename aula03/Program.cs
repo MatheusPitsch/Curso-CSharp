@@ -1,12 +1,10 @@
-﻿using System;
-
-namespace aulaa03
+﻿namespace aulaa03
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            //            1) Crie um vetor que armazena 2 valores vindo do usuario, depois, diga pro usuario qual o maior
+            //1) Crie um vetor que armazena 2 valores vindo do usuario, depois, diga pro usuario qual o maior
 
             //2) Crie um vetor que armarmazene 3 notas vindo do usuario, depois, de a média das três notas
 
@@ -23,22 +21,51 @@ namespace aulaa03
             //        Entrando: Primeiro confere se tem vagas disponíveis, se nao, apenas avise que nao tem vagas e volte ao inicio, caso tenha, peça a placa e a hora de entrada, então, armazene na primeira vaga livre
             //Saindo: Peça a placa do carro, se a placa nao for encontrada peça novamente, caso encontrou a placa, calcule o valor a ser pago(custa R$ 3, 50 a hora), após isso, zere a vaga que o cliente estava ocupando.
 
-
-
-            int[] valores = new int[5];
-            Console.WriteLine("Digigte 5 valores");
-            for (int i = 0; i < valores.Length; i++)
+            //-------------////-------------//
+            //1
             {
-                valores[i] = Convert.ToInt32(Console.ReadLine());
-                i++;
+                //int[] vetor = new int[2];
+
+                //for (int i = 0; i < vetor.Length; i++)
+                //{
+                //    System.Console.WriteLine("Digete um valor");
+                //    vetor[i]  = System.Convert.ToInt32(System.Console.ReadLine());
+
+                //} 
+                //  if (vetor[0] > vetor[1])
+                //{
+                //    System.Console.WriteLine("O maior número esta na posição 0 que é o " + vetor[0]);
+                //}
+                //else
+                //{
+                //    System.Console.WriteLine("O maior número esta na posição 1 que é o " + vetor[1]);
+                //}
+                //System.Console.ReadLine();
             }
-            int soma = 0;
-            for (int j = 0; j < valores.Length; j++)
+            //-------------////-------------//
+            //2
             {
-                soma += valores[j];
+                int[] vetor = new int[3];
+
+                for (int i = 0; i < vetor.Length; i++)
+                {
+                    System.Console.WriteLine("Digite a " + i + "° nota do aluno(a)");
+                    vetor[i] = System.Convert.ToInt32(System.Console.ReadLine());
+                }
+
+                double soma = 0;
+                double media = 0;
+
+                for(int i = 0; i < vetor.Length; i++)
+                {
+                    soma += vetor[i];
+
+                    media = soma / 3;
+                }
+
+                System.Console.WriteLine({0:D} media);
             }
-            Console.WriteLine(soma);
-            Console.ReadLine();
+            System.Console.ReadLine();
         }
     }
 }
