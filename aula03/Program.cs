@@ -1,4 +1,10 @@
-﻿namespace aulaa03
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace aulaa03
 {
     internal class Program
     {
@@ -31,23 +37,23 @@
             //-------------////-------------//
             //1
             {
-                //int[] vetor = new int[2];
+                int[] vetor = new int[2];
 
-                //for (int i = 0; i < vetor.Length; i++)
-                //{
-                //    System.Console.WriteLine("Digete um valor");
-                //    vetor[i]  = System.Convert.ToInt32(System.Console.ReadLine());
+                for (int i = 0; i < vetor.Length; i++)
+                {
+                    System.Console.WriteLine("Digete um valor");
+                    vetor[i] = System.Convert.ToInt32(System.Console.ReadLine());
 
-                //} 
-                //  if (vetor[0] > vetor[1])
-                //{
-                //    System.Console.WriteLine("O maior número esta na posição 0 que é o " + vetor[0]);
-                //}
-                //else
-                //{
-                //    System.Console.WriteLine("O maior número esta na posição 1 que é o " + vetor[1]);
-                //}
-                //System.Console.ReadLine();
+                }
+                if (vetor[0] > vetor[1])
+                {
+                    System.Console.WriteLine("O maior número esta na posição 0 que é o " + vetor[0]);
+                }
+                else
+                {
+                    System.Console.WriteLine("O maior número esta na posição 1 que é o " + vetor[1]);
+                }
+                System.Console.ReadLine();
             }
             //-------------////-------------//
             //2
