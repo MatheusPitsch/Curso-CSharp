@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace aulaa03
+﻿namespace aulaa03
 {
     internal class Program
     {
@@ -37,46 +31,46 @@ namespace aulaa03
             //-------------////-------------//
             //1
             {
-                int[] vetor = new int[2];
+                //int[] vetor = new int[2];
 
-                for (int i = 0; i < vetor.Length; i++)
-                {
-                    System.Console.WriteLine("Digete um valor");
-                    vetor[i] = System.Convert.ToInt32(System.Console.ReadLine());
+                //for (int i = 0; i < vetor.Length; i++)
+                //{
+                //    System.Console.WriteLine("Digete um valor");
+                //    vetor[i] = System.Convert.ToInt32(System.Console.ReadLine());
 
-                }
-                if (vetor[0] > vetor[1])
-                {
-                    System.Console.WriteLine("O maior número esta na posição 0 que é o " + vetor[0]);
-                }
-                else
-                {
-                    System.Console.WriteLine("O maior número esta na posição 1 que é o " + vetor[1]);
-                }
-                System.Console.ReadLine();
+                //}
+                //if (vetor[0] > vetor[1])
+                //{
+                //    System.Console.WriteLine("O maior número esta na posição 0 que é o " + vetor[0]);
+                //}
+                //else
+                //{
+                //    System.Console.WriteLine("O maior número esta na posição 1 que é o " + vetor[1]);
+                //}
+                //System.Console.ReadLine();
             }
             //-------------////-------------//
             //2
             {
-                //    int[] vetor = new int[3];
+                //double[] vetor = new double[3];
 
-                //    for (int i = 0; i < vetor.Length; i++)
-                //    {
-                //        System.Console.WriteLine("Digite a " + i + "° nota do aluno(a)");
-                //        vetor[i] = System.Convert.ToInt32(System.Console.ReadLine());
-                //    }
+                //for (int i = 0; i < vetor.Length; i++)
+                //{
+                //    System.Console.WriteLine("Digite a " + i + "° nota do aluno(a)");
+                //    vetor[i] = System.Convert.ToDouble(System.Console.ReadLine());
+                //}
 
-                //    double soma = 0;
-                //    double media = 0;
+                //double soma = 0;
+                //double media = 0;
 
-                //    for(int i = 0; i < vetor.Length; i++)
-                //    {
-                //        soma += vetor[i];
+                //for (int i = 0; i < vetor.Length; i++)
+                //{
+                //    soma += vetor[i];
+                //}
 
-                //        media = soma / 3;
-                //    }
+                //media = soma / vetor.Length;
 
-                //    System.Console.WriteLine("Meida = "+ "{0:f}", media);
+                //System.Console.WriteLine("Meida = " + "{0:f}", media);
             }
             //-------------////-------------//
             //3
@@ -127,11 +121,19 @@ namespace aulaa03
                 //    switch (opcao)
                 //    {
                 //        case 1:
-
-                //            System.Console.WriteLine("Digite o nome da pessoa.");
-                //            vetorNomes[indice] = System.Console.ReadLine();
-                //            indice++;
-                //            System.Console.Clear();
+                            
+                //            if (vetorNomes[2] == null)
+                //            {
+                //                System.Console.WriteLine("Digite o nome da pessoa.");
+                //                vetorNomes[indice] = System.Console.ReadLine();
+                //                indice++;
+                //                System.Console.Clear();
+                //            }
+                //            else
+                //            {
+                //                System.Console.WriteLine("A lista ja esta cheia.");
+                //            }
+                            
 
                 //            break;
 
@@ -162,82 +164,82 @@ namespace aulaa03
             //-------------////-------------//
             //5
             {
-                //    int[] vetorNumeros = new int[5];
-                //    int soma = 0;
+                //int[] vetorNumeros = new int[5];
+                //int soma = 0;
 
-                //    for (int i = 0; i < vetorNumeros.Length; i++)
-                //    {
-                //        System.Console.WriteLine("Digite um número:");
-                //        vetorNumeros[i] = System.Convert.ToInt32(System.Console.ReadLine());  
-                //        soma += vetorNumeros[i];
+                //for (int i = 0; i < vetorNumeros.Length; i++)
+                //{
+                //    System.Console.WriteLine("Digite um número:");
+                //    vetorNumeros[i] = System.Convert.ToInt32(System.Console.ReadLine());
+                //    soma += vetorNumeros[i];
 
-                //    }
+                //}
 
-                //    System.Console.WriteLine("A soma dos valores é " + soma);
+                //System.Console.WriteLine("A soma dos valores é " + soma);
             }
             //-------------////-------------//
             //6
             {
-                //string[] vetorNomes = new string[4];
-                //string[] vetorCpf = new string[4];
-                //string[] vetorIdade = new string[4];
-                //bool sair = true;
-                //int opcao = 0;
-                //int indice = 0;
+                string[] vetorNomes = new string[4];
+                string[] vetorCpf = new string[4];
+                string[] vetorIdade = new string[4];
+                bool sair = true;
+                int opcao = 0;
+                int indice = 0;
 
-                //while (sair)
-                //{
-                //    System.Console.WriteLine("Escolha uma opção\n\n1-Cadastrar Pessoa\n2-Mostrar Pessoas\n3-Sair\n");
-                //    opcao = System.Convert.ToInt32(System.Console.ReadLine());
-                //    System.Console.Clear();
+                while (sair)
+                {
+                    System.Console.WriteLine("Escolha uma opção\n\n1-Cadastrar Pessoa\n2-Mostrar Pessoas\n3-Sair\n");
+                    opcao = System.Convert.ToInt32(System.Console.ReadLine());
+                    System.Console.Clear();
 
-                //    switch (opcao)
-                //    {
-                //        case 1:
-                //            for (int i = 0; i < vetorNomes.Length; i++)
-                //            {
-                //                System.Console.WriteLine(i + 1 + "-" + vetorNomes[i]);
-                //            }
-                //            System.Console.WriteLine("Escolha um número:");
-                //            indice = System.Convert.ToInt32(System.Console.ReadLine());
-                //            System.Console.Clear();
+                    switch (opcao)
+                    {
+                        case 1:
+                            for (int i = 0; i < vetorNomes.Length; i++)
+                            {
+                                System.Console.WriteLine(i + 1 + "-" + vetorNomes[i]);
+                            }
+                            System.Console.WriteLine("Escolha um número:");
+                            indice = System.Convert.ToInt32(System.Console.ReadLine());
+                            System.Console.Clear();
 
-                //            System.Console.WriteLine("Digite o nome:");
-                //            vetorNomes[indice -1 ] = System.Console.ReadLine();
-                            
-                //            System.Console.WriteLine("Digite o Cpf:");
-                //            vetorCpf[indice - 1] = System.Console.ReadLine();
-                            
-                //            System.Console.WriteLine("Digite a Idade:");
-                //            vetorIdade[indice - 1] = System.Console.ReadLine();
+                            System.Console.WriteLine("Digite o nome:");
+                            vetorNomes[indice - 1] = System.Console.ReadLine();
 
-                //            System.Console.Clear();
-                //            break;
+                            System.Console.WriteLine("Digite o Cpf:");
+                            vetorCpf[indice - 1] = System.Console.ReadLine();
 
-                //        case 2:
-                //            for (int i = 0; i < vetorNomes.Length; i++)
-                //            {
+                            System.Console.WriteLine("Digite a Idade:");
+                            vetorIdade[indice - 1] = System.Console.ReadLine();
 
-                //                System.Console.WriteLine(i + 1 + "-" + vetorNomes[i] + ", " + vetorCpf[i] + ", " + vetorIdade[i]);                                                                
+                            System.Console.Clear();
+                            break;
 
-                //            }
-                            
-                //            System.Console.ReadLine();
-                //            System.Console.Clear();
+                        case 2:
+                            for (int i = 0; i < vetorNomes.Length; i++)
+                            {
 
-                //            break;
+                                System.Console.WriteLine("Nome: {0},\nCpf: {1},\nIdade: {2}",vetorNomes[i], vetorCpf[i], vetorIdade[i]);
+                                System.Console.WriteLine("=====//=====");
+                            }
 
-                //        case 3:
+                            System.Console.ReadLine();
+                            System.Console.Clear();
 
-                //            sair = false;
+                            break;
 
-                //            break;
+                        case 3:
 
-                //        default:
-                //            System.Console.WriteLine("Opção Invalida.");
-                //            break;
-                //    }
-                //}
+                            sair = false;
+
+                            break;
+
+                        default:
+                            System.Console.WriteLine("Opção Invalida.");
+                            break;
+                    }
+                }
 
             }
             //-------------////-------------//
@@ -258,7 +260,7 @@ namespace aulaa03
                 //    switch (opcao)
                 //    {
                 //        case (1):
-                            
+
                 //            for (int i = 0; i < placas.Length; i++)
                 //            {
                 //                if (placas[i] == null)
@@ -286,7 +288,7 @@ namespace aulaa03
                 //            break;
 
                 //        case (2):
-                            
+
                 //            System.Console.WriteLine("Digite sua placa\n");
                 //            placa = System.Console.ReadLine();
 
@@ -319,7 +321,7 @@ namespace aulaa03
                 //            break;
 
                 //        default:
-                           
+
                 //            System.Console.WriteLine("Opção Invaldia\n");
                 //            System.Console.ReadLine();
                 //            System.Console.Clear();

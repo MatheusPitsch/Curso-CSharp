@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D3ABB706-A00B-45E7-B936-898728E938CA}</ProjectGuid>
+    <ProjectGuid>{3B8F64DF-6A62-44BD-8F61-8A3C4CCD31AB}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>aulaa03</RootNamespace>
-    <AssemblyName>aulaa03</AssemblyName>
+    <RootNamespace>AtividadePOO1</RootNamespace>
+    <AssemblyName>AtividadePOO1</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,11 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CamaroteInferior.cs" />
+    <Compile Include="Ingresso.cs" />
+    <Compile Include="Normal.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Vip.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="..\..\..\..\Desktop\cr.snippet" />
     <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
