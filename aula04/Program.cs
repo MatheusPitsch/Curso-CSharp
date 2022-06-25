@@ -8,8 +8,23 @@ namespace aula04
 {
     internal class Program
     {
-        static void Main(string[] args)
+        public int Valor { get; set; }
+
+
+        private int valor;
+
+        public int getValor()
         {
+            return valor;
         }
+
+        public void setValor(int valor)
+        {
+
+        }
+
+
+
     }
 }
+
