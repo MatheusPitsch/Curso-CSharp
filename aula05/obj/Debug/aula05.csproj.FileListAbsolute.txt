@@ -1,0 +1,8 @@
+C:\Users\71719\Documents\GitHub\Curso-CSharp\aula05\bin\Debug\aula05.exe.config
+C:\Users\71719\Documents\GitHub\Curso-CSharp\aula05\bin\Debug\aula05.exe
+C:\Users\71719\Documents\GitHub\Curso-CSharp\aula05\bin\Debug\aula05.pdb
+C:\Users\71719\Documents\GitHub\Curso-CSharp\aula05\obj\Debug\aula05.csproj.AssemblyReference.cache
+C:\Users\71719\Documents\GitHub\Curso-CSharp\aula05\obj\Debug\aula05.csproj.SuggestedBindingRedirects.cache
+C:\Users\71719\Documents\GitHub\Curso-CSharp\aula05\obj\Debug\aula05.csproj.CoreCompileInputs.cache
+C:\Users\71719\Documents\GitHub\Curso-CSharp\aula05\obj\Debug\aula05.exe
+C:\Users\71719\Documents\GitHub\Curso-CSharp\aula05\obj\Debug\aula05.pdb
